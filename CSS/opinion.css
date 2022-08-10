@@ -1,0 +1,70 @@
+.card-img-top{
+    height : 200px;
+    width :300px;
+    align-items: center;
+    margin-left: 150px;
+    text-decoration: none;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.card{
+    /* margin : 100px; */
+    margin-top : 100px;
+    max-width: fit-content;
+    padding-right: 150px;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    text-decoration: none;
+    margin-left : 150px;
+}
+
+* {
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Add padding to containers */
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+}
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
